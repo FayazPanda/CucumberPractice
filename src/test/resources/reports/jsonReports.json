@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 950257301,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can open Google",
+            "match": {
+              "location": "GoogleKittens.i_can_open_Google()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2447515701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleKittens.init()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "search-on-google;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 527401399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleKittens.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 47444899,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for Kittens",
+            "match": {
+              "location": "GoogleKittens.i_search_for_kittens()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1249197000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Google will give me Kittens",
+            "match": {
+              "location": "GoogleKittens.google_will_give_me_Kittens()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 849365300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I can open Google",
+            "match": {
+              "location": "GoogleKittens.i_can_open_Google()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2112409000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleKittens.init()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "",
+        "description": "",
+        "id": "search-on-google;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 539739600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleKittens.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41189999,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for Puppies",
+            "match": {
+              "location": "GoogleKittens.i_search_for_puppies()"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1625822399,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Google will give me Puppies",
+            "match": {
+              "location": "GoogleKittens.google_will_return_a_puppies_search()"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search on Google",
+    "description": "",
+    "id": "search-on-google",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cuke/kittens.feature"
+  }
+]

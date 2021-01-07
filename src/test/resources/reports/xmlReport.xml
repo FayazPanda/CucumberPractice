@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="10.390342">
+    <testcase classname="Search on Google" name="_2" time="5.221816">
+        <system-out><![CDATA[Given I can open Google.....................................................passed
+When I search for Kittens...................................................passed
+Then Google will give me Kittens............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search on Google" name="_3" time="5.168526">
+        <system-out><![CDATA[Given I can open Google.....................................................passed
+When I search for Puppies...................................................passed
+Then Google will give me Puppies............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
